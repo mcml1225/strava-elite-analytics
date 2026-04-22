@@ -1,46 +1,10 @@
-﻿# Python
+﻿.env
+.env.*
+!.env.example
 __pycache__/
-*.py[cod]
-*.class
-*.so
-.Python
-env/
 venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Environment variables
-.env
-.venv
-
-# Data files
-data/raw/*.csv
-data/processed/*.csv
-*.db
-
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
+*.pyc
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-logs/
-
-# Reports
-reports/figures/*.png
-*.html
-
-# Secrets
-*.pem
-*.key
+data/raw/*.csv
+data/processed/*.csv
