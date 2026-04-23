@@ -111,7 +111,7 @@ Visualization - Generates plots and reports
 Expected Output (with authorized athletes):
 
 ============================================================
-# STRAVA ELITE ATHLETES ANALYTICS PLATFORM
+### STRAVA ELITE ATHLETES ANALYTICS PLATFORM
 ============================================================
 
 [1/6] Initializing Strava client...
