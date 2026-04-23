@@ -65,20 +65,20 @@ Reports & CSV Exports
 ## Installation
 
 
-# Clone repository
+### Clone repository
 git clone https://github.com/yourusername/strava-elite-analytics.git
 cd strava-elite-analytics
 
-# Create virtual environment
+### Create virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Configure Strava API credentials
+### Configure Strava API credentials
 cp .env.example .env
-# Edit .env with your Strava API credentials
+### Edit .env with your Strava API credentials
 Authentication Setup
 Create an app at Strava API Settings
 
@@ -111,7 +111,7 @@ Visualization - Generates plots and reports
 Expected Output (with authorized athletes):
 
 ============================================================
-STRAVA ELITE ATHLETES ANALYTICS PLATFORM
+# STRAVA ELITE ATHLETES ANALYTICS PLATFORM
 ============================================================
 
 [1/6] Initializing Strava client...
@@ -210,20 +210,3 @@ Strava for providing the API
 Elite athletes who choose to share their training publicly
 
 Open source community
-
-
-
----
-
-## Guardar y verificar
-
-powershell
-# Guardar (Ctrl+S) y cerrar (Alt+F4)
-
-# Verificar que no hay emojis en el archivo
-Get-Content README.md | Select-String -Pattern "[^ -~]" -NotMatch
-
-# Hacer commit
-git add README.md
-git commit -m "Update README: remove emojis, clarify API limitations"
-git push origin main
