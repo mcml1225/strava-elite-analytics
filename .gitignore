@@ -1,10 +1,22 @@
-﻿.env
+﻿# Environment variables (NUNCA subir credenciales reales)
+.env
 .env.*
 !.env.example
+
+# Python
 __pycache__/
+*.py[cod]
 venv/
-*.pyc
+env/
+
+# Data (opcional - si se quiere compartir datos de ejemplo, comentar estas líneas)
+# data/raw/*.csv
+# data/processed/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
 Thumbs.db
-data/raw/*.csv
-data/processed/*.csv
