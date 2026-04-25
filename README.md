@@ -66,7 +66,7 @@ Reports & CSV Exports
 
 
 ### Clone repository
-git clone https://github.com/yourusername/strava-elite-analytics.git
+git clone https://github.com/mcml1225/strava-elite-analytics.git
 cd strava-elite-analytics
 
 ### Create virtual environment
