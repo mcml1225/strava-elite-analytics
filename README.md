@@ -31,6 +31,7 @@ SEAAP is a production-ready data science platform that:
 6. Visualizes training patterns and insights
 
 ## Architecture
+```
 Strava API (with athlete authorization)
 |
 v
@@ -59,7 +60,7 @@ Visualizer (visualizer.py)
 |
 v
 Reports & CSV Exports
-
+```
 
 
 ## Installation
@@ -162,15 +163,16 @@ Athlete Profiling: Can we cluster athletes by training style?
 
 Predictive Modeling: Can training load predict performance?
 
-Technical Stack
+#### Technical Stack
 Component	Technology
 API Client	Stravalib
 Data Processing	Pandas, NumPy
 ML Models	Scikit-learn (K-Means, Random Forest)
 Visualization	Matplotlib, Seaborn
 Authentication	OAuth 2.0
-Code Structure
 
+#### Code Structure
+```
 strava-elite-analytics/
 ├── src/
 │   ├── athletes_db.py          # 23 elite athlete profiles
@@ -184,7 +186,8 @@ strava-elite-analytics/
 ├── main.py                     # Complete pipeline
 ├── requirements.txt            # Dependencies
 └── README.md                   # This file
-Privacy & Ethics
+```
+#### Privacy & Ethics
 This project:
 
 Does not collect any personal data without authorization
